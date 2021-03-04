@@ -52,7 +52,10 @@ R004 J4,J5,J6
  3. The program accepts text files where *each line* in the file will have a reservation identifier, followed by a space, and then the number of seats requested. The reservation identifier will have the format: R####. as displayed above. 
  4. Ensure python module logging is present.
  5. Type the following command in the  command prompt or terminal. 
-            python cli.py *inputFilePath*
+ ```bash
+python cli.py *inputFilePath*
+```
+            
 6. If no seats can be allocated for a reservation id, a message like "Not enough seats for *ReservationID*. The program terminates with the location of the output file from the current directory.
 
 
