@@ -52,7 +52,10 @@ R004 J4,J5,J6
  3. The program accepts text files where *each line* in the file will have a reservation identifier, followed by a space, and then the number of seats requested. The reservation identifier will have the format: R####. as displayed above. 
  4. Ensure python module logging is present.
  5. Type the following command in the  command prompt or terminal. 
-            python cli.py *inputFilePath*
+ ```bash
+python cli.py *inputFilePath*
+```
+            
 6. If no seats can be allocated for a reservation id, a message like "Not enough seats for *ReservationID*. The program terminates with the location of the output file from the current directory.
 
 
@@ -64,7 +67,7 @@ pip3 install -U pytest
 
 2. Run the command below to run all the tests. I have used the pytest module for testing of this project. 
 ```bash
-pytest Testing.py
+pytest testing.py
 ```
  ## Improvement for the current algorithm:
 1. Create a heuristic for each segment of customer satisfaction. By doing this, we can choose to prioritize one aspect at the cost other. For example, if being seated in seat J vs seat I hardly makes a difference as compared to everyone seating together, then we can first choose to accomodate the biggest group and assign them seats rather than to those who come first.
