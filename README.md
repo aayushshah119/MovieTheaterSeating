@@ -1,4 +1,4 @@
-# Movie-Theatre-Seating-Arrangement
+# Movie Theatre Seating Arrangement
 An algorithm for assigning seats within a movie theater to fulfill reservation requests while maximizing both customer satisfaction and customer safety.
 
  ## Input: 
