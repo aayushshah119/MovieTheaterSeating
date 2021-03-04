@@ -67,7 +67,7 @@ pip3 install -U pytest
 
 2. Run the command below to run all the tests. I have used the pytest module for testing of this project. 
 ```bash
-pytest Testing.py
+pytest testing.py
 ```
  ## Improvement for the current algorithm:
 1. Create a heuristic for each segment of customer satisfaction. By doing this, we can choose to prioritize one aspect at the cost other. For example, if being seated in seat J vs seat I hardly makes a difference as compared to everyone seating together, then we can first choose to accomodate the biggest group and assign them seats rather than to those who come first.
